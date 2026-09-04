@@ -74,7 +74,7 @@
 
       if (error) throw error;
 
-      // Respuestas automáticas del Asistente Virtual según la regla financiera
+      // Mensajes dinámicos del Asistente Virtual
       if (tipo === "Activo") {
         assistantMessage.innerHTML = `👏 <strong>¡Excelente decisión!</strong> Has asignado $${monto.toFixed(2)} a tus Activos (${descripcion}). Esto te acercará a tu libertad financiera.`;
       } else if (tipo === "Pasivo") {
